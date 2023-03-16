@@ -1,49 +1,81 @@
-<header>
-    <a href="index.html"><img class="header-logo" src="assets/plantswap-logo-white.png" alt="" width="130px"> </a>
+<%- include('./partials/head') %>
+
+  <header>
+    <a href="index.html"><img class="header-logo" src="assets/buurtcampus-oost-logo.svg" alt="" width="300x"> </a>
+
 
     <ul>
-      <li><a href="reserveren.html">RESERVEREN</a></li>
-      <li><a href="agenda.html">AGENDA</a></li>
-      <li><img src="assets/globe 1.png" alt="globe" width="38px" height="38px"></li>
-      <li><img src="assets/phone (1) 1 (2).png" alt="phone" width="38px" height="38px"></li>
+      <li><a href="/index">HOME</a></li>
+      <li><a href="/reserveren">RESERVEREN</a></li>
+      <li><a href="/agenda">AGENDA</a></li>
+      <li><a href="/informatie">INFORMATIE</a></li>
+      <li><a href="/contact">CONTACT</a></li>
     </ul>
   </header>
 
-  <div class="beforemain">
-    <img class="beforemain" src="assets/Buurtcampus Oost-logo (1) 1.png" alt="logo-beforemain" width="400px">
-  </div>
+  <hr>
+
 
   <main>
     <div class="titel">
-      <h1>Stekjes </h1>
-      <h1>uitwisselen</h1>
+      <img src="assets/PlantSwap-logo.png" width="25%"> 
     </div>
 
-    <div class="proces">
-      <img src="assets/stekjes_maken.png" alt="maken" width="405px" height="405px">
-    </div>
-  </main>
+  <section class="intro"> 
 
-  <section id="content">
-    <div class="stekjes">
-      <img class="plant" src="assets/stekstation-reageerbuisjes-09-small-570x570 1.png" alt="Stekjes" width="501.97"
-        height="450">
-      <div class="buurtcampus">
+    <img src="assets/stekje-intro.jpeg" width="28%"> 
 
-        <h2>Meer over Buurtcampus</h2>
 
-        <div class="informatie">
-          <h3> Buurtcampus Oost zoekt samen met studenten, bewoners,
-            professionals, ondernemers,
-            docenten en onderzoekers gezamenlijk
-            naar oplossingen voor kansrijke
-            uitdagingen uit de buurt.
-          </h3>
-        </div>
-
-      </div>
-    </div>
-
-   <a href="aanmelden.html"> <button class="btn1"> Reserveren </button>  </a>
+   <div class="intro-tekst"> 
+    <h2>Plantjes wisselen? Dat kan!</h2>
+    <p> Zijn er stekjes die jij wilt wisselen? Dat kan bij ons! Meld je hieronder aan om een stekje te reserveren.</p>
+    <button> Aanmelden</button>
+   </div>
 
   </section>
+
+  <section class="stekjes-container-intro">
+    <h1>Onze stekjes</h1>
+    <p> Hieronder zijn een aantal van onze stekjes te zien die er nu zijn.</p>
+</section>
+
+<div class="stekjes-container1">
+
+    <div class="stek01">
+        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 1">
+        <h1>Stek 1</h1>
+        
+
+    </div>
+    
+    <div class="stek02">
+        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 2">
+        <h1>Stek 2</h1>
+        
+       
+    </div>
+
+    <div class="stek03">
+        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 3">
+        <h1>Stek 3</h1>
+        
+        
+    </div>
+
+    <div class="stek04">
+        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 4">
+        <h1>Stek 4</h1>
+       
+  
+    </div>
+</div>
+
+
+
+
+  </section>
+  </main>
+
+  <%- include('./partials/foot') %>
+
+  
