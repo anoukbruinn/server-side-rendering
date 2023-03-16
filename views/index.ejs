@@ -23,12 +23,12 @@
 
   <section class="intro"> 
 
-    <img src="assets/stekje-intro.jpeg" width="28%"> 
+    <div class="stekje-intro"> <img src="assets/stekje-intro.jpeg" width="65%"> </div>
 
 
    <div class="intro-tekst"> 
-    <h2>Plantjes wisselen? Dat kan!</h2>
-    <p> Zijn er stekjes die jij wilt wisselen? Dat kan bij ons! Meld je hieronder aan om een stekje te reserveren.</p>
+    <h2>Plantjes wisselen? Dat kan binnenkort bij ons!</h2>
+    <p> Zijn er stekjes die jij wilt wisselen? Dat kan bij ons! Meld je hieronder aan om vervolgens een stekje te <br> reserveren. Als u al een account heeft dan kunt u deze stap overslaan.</p>
     <button> Aanmelden</button>
    </div>
 
@@ -36,38 +36,22 @@
 
   <section class="stekjes-container-intro">
     <h1>Onze stekjes</h1>
-    <p> Hieronder zijn een aantal van onze stekjes te zien die er nu zijn.</p>
+    <p class="stekjes-paragraph"> Hieronder zijn een aantal van onze stekjes te zien die er nu zijn. Door op de button te klikken kunt u meer informatie zien.</p>
 </section>
 
 <div class="stekjes-container1">
 
-    <div class="stek01">
-        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 1">
-        <h1>Stek 1</h1>
-        
-
-    </div>
-    
-    <div class="stek02">
-        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 2">
-        <h1>Stek 2</h1>
-        
-       
-    </div>
-
-    <div class="stek03">
-        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 3">
-        <h1>Stek 3</h1>
-        
-        
-    </div>
-
-    <div class="stek04">
-        <img src="assets/stekje-1.jpeg" style="width:90%" alt="Stek 4">
-        <h1>Stek 4</h1>
-       
+  <% stekjes.forEach(stekje => { %>
+  <div class="stekjes">
+      <h2><%= stekje.naam %></h2>
+      
+      <img src="<%= stekje.fotos[0].original %>"> 
   
-    </div>
+      <button> Meer informatie</button>
+  </div>
+  <% }) %>
+
+
 </div>
 
 

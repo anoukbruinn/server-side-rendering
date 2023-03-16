@@ -34,7 +34,13 @@ header a .header-logo {
    
 }
 
+.intro-tekst{
+    margin-left: 10px;
+}
 
+.stekje-intro{
+    margin-right: 10px;
+}
 
 
   
@@ -114,10 +120,10 @@ font{
 
 
 
-.stekjes { 
+/*.stekjes { 
     margin-top: 20px ;
     padding-right: 135px;
-}
+}*/
 
 .titel{
     width: 100%;
@@ -377,6 +383,7 @@ input [type="submit"] :hover{
         justify-content: center;
         background-color:#333467;
         width: 100%;
+        align-items: flex-start;
 }
 
 .stekjes-container1 > div{
@@ -387,9 +394,23 @@ input [type="submit"] :hover{
         background-color: white;
         border-radius: 20px;
         margin-top: 100px;
+        padding:10px;
       }
     
 .stekjes-container1 > div > img {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        /*width: 20rem;*/
+        justify-content: center;
+        display: flex;
+        width:100%;
+        
+
+
       }
+
+button {
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+}

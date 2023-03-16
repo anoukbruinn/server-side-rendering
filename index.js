@@ -5,6 +5,7 @@ import express, { response } from 'express'
 const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=1000'
 const data = await fetch(url).then((response) => response.json())
 
+
 // Maak een nieuwe express app aan
 const app = express()
 
@@ -16,9 +17,10 @@ app.set('views', './views')
 app.use(express.static('public'))
 
 // Maak een route voor de index
-app.get('/', function (req, res) {
+app.get('/', function (request, response) {
   // res.send('Hello World!')
-  res.render('index', data)
+  response.render('index', data);
+  console.log(data)
 })
 
 app.get('/reserveren', (request, response) => {
