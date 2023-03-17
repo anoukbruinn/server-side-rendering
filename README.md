@@ -44,12 +44,12 @@ const data = await fetch(url).then((response) => response.json())`
 
 ## Installatie
 
-1: Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: .
-2: Clone of download deze respository.
-3: Open hem in je code-editor.
-4: open de terminal en type npm install.
-5: Daarna door gerbruik van npm start krijg je een localhost link waar je de code live ziet.
-6: Live zetten van je project kan met behulp van cyclic
+1: Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: <br> 
+2: Clone of download deze respository. <br>
+3: Open hem in je code-editor. <br>
+4: open de terminal en type npm install. <br>
+5: Daarna door gerbruik van npm start krijg je een localhost link waar je de code live ziet. <br>
+6: Live zetten van je project kan met behulp van cyclic. 
 
 ## Gebruik
 
