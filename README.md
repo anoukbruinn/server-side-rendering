@@ -14,6 +14,13 @@
 
 ## Beschrijving
 Ik heb een website gemaakt voor Buurtcampus oost. Op deze website kun je voor plantswap een stekje reserveren en hier meer informatie over vinden.
+Deze website heb ik gemaakt vanwege een opdracht voor de opdrachtgever: we hebben 3 userstories gekregen en vanuit hieruit moesten we gaan werken. 
+
+### Userstories
+
+- Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over het verzorgen van planten, zodat ik niet steeds nieuwe planten hoef te kopen en daarme verspilling tegen ga.
+- Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over de positieve bijdrage van planten op de leefomgeving, zodat ik gemotiveerd raak stekjes te planten in mijn omgeving
+- Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
 
 ![MacBook Air - 1 (2)](https://user-images.githubusercontent.com/112856687/225868928-38a52cc6-fced-484e-94f8-285c1bdbd2b2.png)
 
