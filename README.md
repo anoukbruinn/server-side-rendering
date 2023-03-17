@@ -22,8 +22,10 @@ Ik heb een website gemaakt voor Buurtcampus oost. Op deze website kun je voor pl
 
 Ik heb voor dit project gebruik gemaakt van: Json, Ejs, Js, CSS en Html. Het belangrijkste wat ik heb gedaan in de Javascript is verwijzen naar de API.
 Dit heb ik op deze manier gedaan.
-'const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=1000'
-const data = await fetch(url).then((response) => response.json())'
+
+`const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=1000'
+const data = await fetch(url).then((response) => response.json())`
+
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Installatie
