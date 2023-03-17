@@ -26,6 +26,20 @@ Dit heb ik op deze manier gedaan.
 `const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=1000'
 const data = await fetch(url).then((response) => response.json())`
 
+### tools
+- figma
+- visuel studio code
+- Terminal
+- Npm
+- nodejs
+- josn
+### gerbuikte technieken
+- node
+- javascript
+- ejs
+- html
+- css
+
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Installatie
