@@ -1,4 +1,3 @@
-
 // Importeer express uit de node_modules map
 import express, { response } from 'express'
 
